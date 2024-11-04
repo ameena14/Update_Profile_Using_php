@@ -1,0 +1,75 @@
+
+.update-profile{
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.update-profile form{
+  padding: 10px 40px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: center;
+  width: 400px;
+  text-align:center ;
+  border-radius: 5px;
+}
+.update-profile form .flexing{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 15px;
+
+}
+.update-profile form .flexing .inputBox{
+        width: 50%;
+}
+.update-profile form .flexing .inputBox span{
+  text-align: left;
+  display: block;
+  margin-top: 15px;
+  font-size: 17px;
+  color: black;
+}
+input, textarea, select {
+  box-sizing: border-box;
+}
+.update-profile form .box {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+}
+
+.update-profile form img{
+    height: 200px;
+    width: 200p;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+ }
+ 
+
+.update-profile form .flexing .inputBox .box{
+  width: 100%;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  pad: 12px 14px;
+  font-size: 17px;
+  color: black;
+  margin-top: 10px;
+}
+@media(max-width:650px){
+  .update-profile form .flexing{
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .update-profile form .flexing .inputBox{
+    width: 100%;
+  }
+}
